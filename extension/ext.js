@@ -35,7 +35,6 @@ function start () {
     st.innerHTML = "body .page {display: none}";
     document.head.appendChild(st);
 
-    document.querySelector("body .page").style.display = "none";
     document.getElementById("extension").style.display = "block";
 
     setTimeout(function() {
