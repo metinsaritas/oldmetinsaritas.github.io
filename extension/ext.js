@@ -31,6 +31,10 @@ function start () {
 
     document.querySelector("#stylescss").remove();
 
+    var st = document.createElement("style");
+    st.innerHTML = "body .page {display: none}";
+    document.head.appendChild(st);
+
     document.querySelector("body .page").style.display = "none";
     document.getElementById("extension").style.display = "block";
 
