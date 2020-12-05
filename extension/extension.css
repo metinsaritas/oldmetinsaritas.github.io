@@ -96,10 +96,11 @@
     padding: 0 10px;
     text-transform: uppercase;
     color: #fff;
+    height: 30px;
 }
 
 .lang {
-    margin-top: 50px;
+    margin-top: 150px;
     padding: 16px 16px 6px;
     font-weight: 400;
     font-size: 12px;
