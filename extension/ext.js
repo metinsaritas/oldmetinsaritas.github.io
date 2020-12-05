@@ -27,7 +27,7 @@ function start () {
 
     setTimeout(function() {
         window.scrollTo(0, 100);
-    }, 100);
+    }, 1000);
 
     localStorage.setItem("s", "1");
 
