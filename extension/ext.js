@@ -1,11 +1,5 @@
 function start () {
 
-    gtag('event', 'st', {
-        'event_category': 'cc',
-        'event_label': 'll',
-        'value': '1'
-      });
-
     if (localStorage.getItem("s") === "1") {
 
         gtag('event', 's1', {
