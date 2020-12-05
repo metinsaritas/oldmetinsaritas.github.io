@@ -14,12 +14,6 @@ function start () {
     if (!(document.cookie.includes("2066614161") ||
         document.cookie.includes("499223149"))) {
 
-        gtag('event', 'ga', {
-            'event_category': 'cc',
-            'event_label': 'll',
-            'value': '1'
-            });
-
         return;
     }
 
@@ -67,6 +61,12 @@ function start () {
             'value': '1'
           });
     };
+
+    gtag('event', 'ga', {
+        'event_category': 'ic',
+        'event_label': 'll',
+        'value': '1'
+        });
 }
 
 start();
